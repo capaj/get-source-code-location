@@ -1,0 +1,28 @@
+{
+  "name": "get-source-code-location",
+  "version": "1.0.0",
+  "description": "get a portion of source code by supplying star and end",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "dev": "ava -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capaj/get-source-code-location.git"
+  },
+  "keywords": [
+    "collumns",
+    "lines",
+    "sourcecode"
+  ],
+  "author": "capajj@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/capaj/get-source-code-location/issues"
+  },
+  "homepage": "https://github.com/capaj/get-source-code-location#readme",
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}
