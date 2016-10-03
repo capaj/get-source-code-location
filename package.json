@@ -1,6 +1,6 @@
 {
   "name": "get-source-code-location",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get a portion of source code by supplying star and end",
   "main": "index.js",
   "scripts": {
