@@ -1,7 +1,7 @@
 {
   "name": "get-source-code-location",
   "version": "1.0.1",
-  "description": "get a portion of source code by supplying star and end",
+  "description": "get a portion from source code string by supplying start and end",
   "main": "index.js",
   "scripts": {
     "test": "ava",
