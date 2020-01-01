@@ -23,6 +23,14 @@
   },
   "homepage": "https://github.com/capaj/get-source-code-location#readme",
   "devDependencies": {
-    "ava": "^0.16.0"
+    "ava": "^2.4.0",
+    "husky": "^3.1.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }

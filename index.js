@@ -2,8 +2,8 @@ module.exports = (source, sourceLocation) => {
   if (!source) {
     throw new TypeError('source parameter is falsy')
   }
-  source = source.replace(new RegExp('\r?\n','g'), '\n')
-  function nthIndexOf (pattern, n) {
+  source = source.replace(new RegExp('\r?\n', 'g'), '\n')
+  function nthIndexOf(pattern, n) {
     let i = -1
 
     while (n-- && i++ < source.length) {
